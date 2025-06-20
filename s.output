@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Port Scanner and SSH Brute Force Output</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; }
+        pre { background-color: #eee; padding: 15px; border-radius: 5px; }
+        h2 { color: #333; }
+    </style>
+</head>
+<body>
+    <h2>Sample Output: Port Scanner and SSH Brute Force Script</h2>
+    <pre>
+Scanning the ports 20-25,80,443 on 192.168.1.10...
+Port 22 is opened.
+Port 23 is opened.
+Port 80 is opened.
+3 opened port(s) found: [22, 23, 80]
+
+Performing SSH BF attack on 192.168.1.10...
+Login successful: admin@192.168.1.10:22 with password: admin123
+SSH BF attack successful.
+    </pre>
+</body>
+</html>
